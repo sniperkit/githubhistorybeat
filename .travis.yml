@@ -27,10 +27,10 @@ addons:
 
 before_install:
   # Redo the travis setup but with the elastic/libbeat path. This is needed so the package path is correct
-  - mkdir -p $HOME/gopath/src/github.com/mmatur/githubhistorybeat/
-  - rsync -az ${TRAVIS_BUILD_DIR}/ $HOME/gopath/src/github.com/mmatur/githubhistorybeat/
-  - export TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/mmatur/githubhistorybeat/
-  - cd $HOME/gopath/src/github.com/mmatur/githubhistorybeat/
+  - mkdir -p $HOME/gopath/src/github.com/sniperkit/githubhistorybeat/
+  - rsync -az ${TRAVIS_BUILD_DIR}/ $HOME/gopath/src/github.com/sniperkit/githubhistorybeat/
+  - export TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/sniperkit/githubhistorybeat/
+  - cd $HOME/gopath/src/github.com/sniperkit/githubhistorybeat/
 
 install:
   - true

@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/mmatur/githubhistorybeat/beater"
+	"github.com/sniperkit/githubhistorybeat/beater"
 
 	cmd "github.com/elastic/beats/libbeat/cmd"
 )

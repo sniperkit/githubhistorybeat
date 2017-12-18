@@ -3,7 +3,7 @@
 Welcome to Githubhistorybeat.
 
 Ensure that this folder is at the following location:
-`${GOPATH}/github.com/mmatur/githubhistorybeat`
+`${GOPATH}/github.com/sniperkit/githubhistorybeat`
 
 ## Getting Started with Githubhistorybeat
 
@@ -24,7 +24,7 @@ It will create a clean git history for each major step. Note that you can always
 To push Githubhistorybeat in the git repository, run the following commands:
 
 ```
-git remote set-url origin https://github.com/mmatur/githubhistorybeat
+git remote set-url origin https://github.com/sniperkit/githubhistorybeat
 git push origin master
 ```
 
@@ -99,9 +99,9 @@ make clean
 To clone Githubhistorybeat from the git repository, run the following commands:
 
 ```
-mkdir -p ${GOPATH}/github.com/mmatur/githubhistorybeat
-cd ${GOPATH}/github.com/mmatur/githubhistorybeat
-git clone https://github.com/mmatur/githubhistorybeat
+mkdir -p ${GOPATH}/github.com/sniperkit/githubhistorybeat
+cd ${GOPATH}/github.com/sniperkit/githubhistorybeat
+git clone https://github.com/sniperkit/githubhistorybeat
 ```
 
 

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/mmatur/githubhistorybeat/cmd"
+	"github.com/sniperkit/githubhistorybeat/cmd"
 )
 
 var name = "githubhistorybeat"

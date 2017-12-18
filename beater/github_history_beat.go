@@ -10,7 +10,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/mmatur/githubhistorybeat/config"
+	"github.com/sniperkit/githubhistorybeat/config"
 )
 
 type GithubHistoryBeat struct {

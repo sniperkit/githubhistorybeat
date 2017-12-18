@@ -1,6 +1,6 @@
 SNAPSHOT=no
 BEAT_NAME=githubhistorybeat
-BEAT_PATH=github.com/mmatur/githubhistorybeat
+BEAT_PATH=github.com/sniperkit/githubhistorybeat
 BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
 BEAT_URL=https://${BEAT_PATH}
 SYSTEM_TESTS=false
